@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'nowblack';
+    src: url('fonts/now-black.woff2') format('woff2'),
+         url('fonts/now-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nowbold';
+    src: url('fonts/now-bold.woff2') format('woff2'),
+         url('fonts/now-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nowlight';
+    src: url('fonts/now-light.woff2') format('woff2'),
+         url('fonts/now-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nowmedium';
+    src: url('fonts/now-medium.woff2') format('woff2'),
+         url('fonts/now-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nowregular';
+    src: url('fonts/now-regular.woff2') format('woff2'),
+         url('fonts/now-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nowthin';
+    src: url('fonts/now-thin.woff2') format('woff2'),
+         url('fonts/now-thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'pacificoregular';
+    src: url('fonts/pacifico.woff2') format('woff2'),
+         url('fonts/pacifico.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

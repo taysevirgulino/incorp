@@ -1,0 +1,382 @@
+/* largura 1280px */
+
+@media only screen and (max-width: 479px) {
+    div[class^="col-xs"], article.col-xs-6 {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    div.container {
+        width: 80%;
+    }
+}
+@media (min-width: 1140px) {
+    div.container {
+        width: 80%;
+    }
+}
+@media (min-width: 1260px) {
+    div.container {
+        width: 1260px;
+    }
+
+}
+
+
+
+
+/*
+   CUSTOM  
+*/
+
+
+/* Smaller than standard 1120px (devices and browsers) */
+@media only screen and (max-width: 1270px) {
+    .distribuicao {
+        display: block;
+    }
+
+    .distribuicao li{
+        margin-bottom: 30px;
+         margin-right: 0px !important;
+    }   
+
+    .faixaetaria {
+        display: block;
+    }
+
+    .faixaetaria li{
+        margin-bottom: 30px;
+         margin-right: 0px !important;
+    }   
+
+}
+
+
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 990px) {
+   .slide{
+        height: 500px;
+        overflow: hidden;
+    }
+    .content-slide-box{
+        margin-top: 30px;
+    }
+
+    .veja{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .veja span{
+        padding: 10px 10px;
+        text-transform: none;
+    }
+    .publicacoes a{
+        margin-bottom: 20px;
+    }
+
+    .breadcrumbs{
+        text-align: center;
+    }
+    .heading-title{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .form-control{
+        margin-bottom: 30px;
+    }
+     .nav-tabs > li{
+        margin-bottom: 10px !important;
+        text-align: center;
+        width: 100%;
+    }
+    .tab-industria h1, .tab-industria p{
+        text-align: center;
+    }
+    .btn-todos{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .botao {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .positivo, .negativo{
+        text-align: center;
+    }
+     .border-lat{
+        border:0;
+    }
+    .masc, .fem{
+        display: block;
+    }
+
+    .masc img, .fem img{
+        margin-right: auto;
+        margin-left: auto;
+     }
+    .masc-conteudo, .fem-conteudo{
+        margin: 0;
+    }
+    .setores{
+        display: block;
+    }
+    .setores > div{
+        margin-bottom: 20px;
+    }
+    .pib-const, .pib-elet, .pib-ind, .ext{
+        margin-bottom: 30px;
+    }
+    .legenda{
+        display: block;
+        text-align: center;
+    }
+
+    .legenda li{
+        margin-bottom: 10px;
+    }
+
+    .legenda-{
+        text-align: center;
+    }
+
+    .legenda- li{
+        margin-bottom: 10px;
+    }
+    .map-area-transform img{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .content-slide-box span{
+        font-size: 20px;
+    }
+
+    .content-slide-box p{
+        font-size: 12px;
+    }
+    .guia{
+        padding: 15px 0;
+    }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) { 
+    .top-header-right > div{
+        padding: 20px;
+    }
+    .top-header-right{
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
+    }
+    .middle-body{
+        margin-top: 40px;
+    }
+   
+    .copy .flex-between.wrapper{
+        text-align: center;        
+    }
+    .artemsite {
+        display: block;
+        float: unset;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        width: 209px;
+    }
+
+    .copy p{
+        text-align: center;
+    }
+
+    .tarja_blue ul{
+        display: flex;
+        justify-content: center;
+    }
+    .menu-static-rodape ul{
+        margin-bottom: 0;
+        padding-left: 0;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+    .menu-static-rodape{
+        margin-top: 0;
+    }
+    .artemsite{
+        display: flex;
+        justify-content: center;
+    }
+    h1.logo{
+        padding-bottom: 5px;
+    }
+    .slide img{
+        margin-top: 30px; 
+    }
+
+    .content-slide-box{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .content-slide-box span{
+        font-size: 20px;
+    }
+
+    .content-slide-box p{
+        font-size: 12px;
+    }
+    .guia{
+        padding: 15px 0;
+    }
+    .veja{
+        padding: 30px;
+    }
+    .veja span{
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+    }
+    h1.logo img{
+        padding-bottom: 30px;
+    }
+    .title-interna h2 b, .title-interna h2{
+        text-align: left;
+    }
+    .conteudo-{
+        display: block;
+    }
+    /*.header{
+        border-bottom: 5px solid #e1e1e1;
+    }*/
+} 
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+   
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    .top-header-right{
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+   
+    .top-header-right > div{ 
+        padding: 10px 20px;
+    }
+    .top-header-right{
+        display: block; 
+    }
+
+    .tarja_blue ul li a{
+        font-size: 11px !important;
+    }
+    .positivo p{
+        margin-top: 0;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+    'PADRÕES' EM RESPONSIVO
+*/
+
+/* Smaller than standard 1120px (devices and browsers) */
+@media only screen and (max-width: 1120px) {
+}
+/* Tablet Portrait size to standard 1120px (devices and browsers) */
+@media only screen and (min-width: 960px) and (max-width: 1120px) {
+     .wrapper-right{
+        margin-top: 30px;
+    }
+    
+}
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+    .wrapper-right{
+        margin-top: 30px;
+    }
+
+
+
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    /* padrões */
+    .menu-nav{
+        display: block;
+        visibility: visible;
+    }
+    .menu-static{
+        display: none;
+        visibility: hidden; 
+    }
+    
+    .flex-center,
+    .flex-between{ 
+        display: block;
+    }
+    
+    .conteudoINDEX > div > div > div > div{
+        margin: 5px 0;
+    }
+    .conteudoINDEX > div > div > div{
+    }
+    .conteudoINDEX > div > div{
+        margin: 20px 0;
+    }
+    .conteudoINDEX > div{
+        margin: 20px 0;
+    }
+   
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+   
+   
+}
+
+
+
+
+ /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 400px) {
+    
+
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="iso-8859-1"> 
+    <meta name="author" content=""> 
+    <meta http-equiv="X-UA-Compatible" content="IE=5; IE=8; IE=9; IE=10;" >
+	
+	<meta name="keywords" content="{$OG.title}" />
+	<meta name="description" content="{$OG.description}" />
+	<meta property="og:type" content="{$OG.type}" />
+	<meta property="og:title" content="{$OG.title}" />
+	<meta property="og:url" content="{$OG.url}" />
+	<meta property="og:image" content="{if $OG.image != ""}{$OG.image}{else}{$URL_HOST}{$SRC_IMAGE}facebook.jpg{/if}" />
+	<meta property="og:description" content="{$OG.description}"/>
+	<meta property="og:site_name" content="{$SITE->getTitulo()}" />
+	<meta name="Robots" content="INDEX,FOLLOW" />
+	<meta name="language" content="pt-br" /> 
+	<meta name="keywords" content=""/>
+	<meta name="description" content=" "/>
+	<meta property="fb:app_id" content=""/>
+	
+    <title>InCorp</title>
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     
+    <link rel="stylesheet" type="text/css" href="style/style.css"/>
+    <link rel="stylesheet" type="text/css" href="style/base.css"/>  
+    <link rel="stylesheet" type="text/css" href="style/animate.css"/>  
+	
+    <!-- Favicons
+    ================================================== -->
+    <!--<link rel="shortcut icon" href="images/favico.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">-->
+   	<link rel="icon" href="images/favico.ico" type="text/css" sizes="16x16"> 
+   	<link rel="icon" href="images/favico.png" type="text/css" sizes="16x16"> 
+	
+    <link rel="stylesheet" type="text/css" href="style/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="style/command.css"/> 
+    <link rel="stylesheet" type="text/css" href="style/responsive.css"/> 
+	
+    <link rel="stylesheet" type="text/css" href="style/font-awesome.css"/>
+    <link rel="stylesheet" type="text/css" href="style/demo-slideshow.css"/>
+    <link rel="stylesheet" type="text/css" href="style/fontes.css"/>
+	
+    <link href="script/owl.carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="script/owl.carousel/owl-carousel/owl.theme.css" rel="stylesheet">
+	
+	<!-- Bootstrap and CSS-->
+    <link rel="stylesheet" type="text/css" href="script/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="script/bootstrap/css/bootstrap-theme.min.css"/>
+	
+	
+	 
+    
+</head> 
+<body>
+<div id="fb-root"></div>
+
+    <div class="container_geral">
+		<div class="menu-nav" id="menu">
+			<nav> 
+				<a href="#" class="nav-toggle-btn menu-btn">
+					<div class="menu-btn-block top"></div>
+					<div class="menu-btn-block middle"></div>
+					<div class="menu-btn-block bottom"></div>
+				</a>   
+				<ul>
+					<li class="active"><a href="index.html">Home</a></li>
+			        <li><a href="perfil-emissora.html"> Perfil da emissora</a>
+			            <!-- <ul class="ul_reset fadeInUp">
+			                <li><a href="#">Home</a></li>
+			               
+			            </ul> -->
+			        </li>
+			        <li><a href="concorrentes.html">Concorrentes</a></li>
+			        <li><a href="contato.html">Feedback</a></li>
+			</nav>
+		</div> <!-- menu - nav -->    
+		
+		<div class="header-interna animated fadeIn back"></div> <!-- header -->
+		
+		
+		<div class="body" id="fixHere">
+			
+		<section>
+			<div class="extend">
+				<div class="container">
+					<div class="row">
+						<div class="extend mt50 mb50"> 
+							<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 heading-title">
+	                            <h2><b>Feedback</b></h2>
+	                        </div> 
+	                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+	                            <div class="breadcrumbs">
+	                                <span><a href="index.html">Home</a> » <em>Feedback</em> « <a href="index.html"> Voltar</a></span>
+	                            </div>
+	                        </div>
+	                    </div>
+
+	                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb30">
+	                    	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+							 	<div class="panel panel-default">
+							    	<div class="panel-heading active" role="tab" id="headingOne">
+							    		<h4 class="panel-title">
+							        		<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							        		</a>
+							    		</h4>
+							    	</div>
+							    	<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+							      		<div class="panel-body">
+						        			<div class="extend">
+						        				<form class="form-horizontal">
+						        					<div class="form-group">
+													    <div class="col-sm-4">
+													    	<select class="form-control">
+															  <option>Selecione o assunto</option>
+															  <option>Positivo</option>
+															  <option>Negativo</option>
+															</select>
+													    </div>
+													    <div class="col-sm-4">
+													    	<input type="text" class="form-control" id="inpuNome" placeholder="Nome">
+													    </div>
+													    <div class="col-sm-4">
+													    	<input type="text" class="form-control" id="inputTelefone" placeholder="Telefone">
+													    </div>
+													</div>	
+													<div class="form-group mt30">
+													    <div class="col-sm-4">
+													    	<input type="text" class="form-control" id="inpuEmail" placeholder="E-mail">
+													    </div>
+													    <div class="col-sm-4">
+													    	<select class="form-control">
+															  <option>Estado</option>
+															  <option></option>
+															</select>
+													    </div>
+													    <div class="col-sm-4">
+													    	<select class="form-control">
+															  <option>Cidade</option>
+															  <option></option>
+															</select>
+													    </div>
+													</div>
+													<div class="form-group">
+														<div class="col-sm-12">
+															<textarea class="form-control" id="comment" placeholder="Mensagem"></textarea>
+														</div>
+													</div>	
+													<div class="form-group ">
+													    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 right mt10">
+													      <button type="submit" class="btn- btn-enviar">Enviar</button>
+													    </div>
+													</div>
+						        				</form>
+						        			</div>
+							      		</div>
+							    	</div>
+								</div>
+							</div>
+	                    </div>
+					</div>
+				</div>
+			</div>
+		</section>	
+
+
+
+		</div> <!-- body -->
+			
+			
+		<div class="footer-interna"></div> <!-- footer -->
+	</div> <!-- container --> 
+	
+	<script type="text/javascript" src="script/jquery.min.js"></script> 
+    <script type="text/javascript" src="script/jquery.cycle2.js"></script> 
+    <script type="text/javascript" src="script/jquery.scrollTo-1.4.3.1-min.js"></script> 
+    <script type="text/javascript" src="script/nav.js"></script>   
+    <script type="text/javascript" src="script/scriptCUSTON.js"></script>   
+	<script type="text/javascript" src="script/jquery.ui.totop.min.js"></script>   
+	
+    <!-- Bootstrap and JS-->
+    <link rel="stylesheet" type="text/css" href="script/bootstrap/css/bootstrap.min.css"/>
+	<script type="text/javascript" src="script/bootstrap/js/bootstrap.min.js"></script>   
+	
+		 
+    <!-- fancybox js -->
+    <link rel="stylesheet" type="text/css" href="script/fancybox/source/jquery.fancybox.css"/>
+	<script type="text/javascript" src="script/fancybox/source/jquery.fancybox.js?v=2.1.5"></script> 
+    <script type="text/javascript" src="script/fancybox-selector.js"></script>   
+	
+	  <!-- Carousel owl-->
+    <script src="script/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
+
+	<!-- Add fancyBox - media helper (this is optional) -->
+	<script type="text/javascript" src="script/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.0"></script>
+	 
+	<script>$.fn.cycle.defaults.autoSelector = '.slideshow';</script>
+
+	
+    <script type="text/javascript"> 
+			
+		$(document).ready(function() {
+			$().UItoTop(); 
+			
+			$( '.cycle-slideshow' ).cycle(); /* carregar slides cycle|cycle2 */ 
+			$( '.cycle-slideshow2' ).cycle(); /* carregar slides cycle|cycle2 */ 
+
+			 
+			$('div.footer-interna').load('footer-interna.html');   /* carregar pagina index */ 
+			$('div.header-interna').load('header-interna.html');   /* carregar pagina index */ 
+		});
+		 
+	</script>
+</body>
+</html>
